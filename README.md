@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 QR Code Generator
 
-## Getting Started
+## 📖 Description
 
-First, run the development server:
+Welcome to the **QR Code Generator**! This project is an interactive web application that allows you to create custom QR codes from any text you enter. Whether you want to share links, contact information, or any other data, this generator makes it easy and fun!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Friendly Interface**: Enjoy a clean and modern interface built with **Bootstrap**.
+- **Instant Generation**: Create a QR code instantly by entering your text.
+- **Easy Download**: Download your generated QR code in PNG format with a single click.
+- **Input Validation**: Makes sure you enter a text before generating the QR code.
+- **Responsive**: Works perfectly on mobile and desktop devices.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠 Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: React framework to build the application.
+- **Bootstrap**: For a sleek and responsive design.
+- **React Icons**: To add cool icons and improve user experience.
+- **QR Generation API**: Use a third-party service to generate QR codes.
 
-## Learn More
+## 🎨 Demo
 
-To learn more about Next.js, take a look at the following resources:
+### 1. Enter Text
+Enter any text you want to turn into a QR code.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Generate QR Code
+Press the **"Generate QR Code"** button and watch your QR code being generated.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. Download Code
+Click the **"Download QR Code"** button to save your QR code to your device.
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Manuel Rodriguez
